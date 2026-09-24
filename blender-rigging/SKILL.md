@@ -1,9 +1,14 @@
 ---
 name: blender-rigging
-description: Use when rigging a character, creature or prop in Blender through Python: "rig this character", Rigify metarig fitting or generation errors, automatic weights or "Bone Heat Weighting failed", weight painting fixes, clothes that do not follow, IK/FK switch, foot roll, twist bones, drivers and custom properties, corrective shape keys, a stylized face rig, a mechanical or hard-surface rig, or testing how a rig deforms.
+description: "Use when rigging a character, creature or prop in Blender through Python: \"rig this character\", Rigify metarig fitting or generation errors, automatic weights or \"Bone Heat Weighting failed\", weight painting fixes, clothes that do not follow, IK/FK switch, foot roll, twist bones, drivers and custom properties, corrective shape keys, a stylized face rig, a mechanical or hard-surface rig, or testing how a rig deforms."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender rigging
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert rigging means the rig is specified by bone placement, proven by deformation under stress poses, and shaped around what the animator will actually use. The stance of every source expert: place joints precisely, generate or build the simplest mechanism that works, then pose it, measure it, render it and fix it before calling it done.
 

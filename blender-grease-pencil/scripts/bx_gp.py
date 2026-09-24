@@ -28,6 +28,8 @@ Conventions: drawing plane XZ (front view), camera at -Y looking +Y. Distances i
 metres. `radius` is HALF the line width. Tuple colors are scene-linear RGBA; hex
 strings ("#RRGGBB") are sRGB and converted (use hex for palette colors).
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import sys

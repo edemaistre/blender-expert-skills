@@ -19,6 +19,8 @@ data and every look decision goes through the Essentials hair node-group assets.
 
 Every function works in a live GUI session too (object mode). Values are metres.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import sys

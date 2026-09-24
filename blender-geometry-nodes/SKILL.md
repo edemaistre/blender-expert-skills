@@ -1,9 +1,14 @@
 ---
 name: blender-geometry-nodes
-description: Use when building or debugging Geometry Nodes, headless or live: procedural modeling, scattering objects on a surface, arrays along a curve, repeat or for-each loops, simulation zones, 5.2 physics (cloth, colliders, forces, effectors), closures, bundles, matrices, node-group assets with gizmos. Also when a GN script links nothing, shows red links, ignores modifier inputs, loses instances in a bounding box, or a simulation resets or jumps.
+description: "Use when building or debugging Geometry Nodes, headless or live: procedural modeling, scattering objects on a surface, arrays along a curve, repeat or for-each loops, simulation zones, 5.2 physics (cloth, colliders, forces, effectors), closures, bundles, matrices, node-group assets with gizmos. Also when a GN script links nothing, shows red links, ignores modifier inputs, loses instances in a bounding box, or a simulation resets or jumps."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender Geometry Nodes (procedural systems and simulations)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert Geometry Nodes work means thinking in fields evaluated on domains, keeping systems declarative (data and instructions come in from outside), and shipping tools that artists drive from modifier inputs without opening the tree. For an agent it also means proving every tree with numbers read from the evaluated geometry and a render, because the node editor's red links and warnings are invisible from Python unless you ask for them.
 

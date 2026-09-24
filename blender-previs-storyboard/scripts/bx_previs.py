@@ -43,6 +43,8 @@ action-line check).
 Rigify proxies: Rigify is off under --factory-startup; ensure_rigify() first, or build them
 with rigify_proxy() (layout bone collection keyed by key_block, posed with pose(bones=...)).
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import json
 import math
 import os

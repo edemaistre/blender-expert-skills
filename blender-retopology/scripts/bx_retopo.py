@@ -61,6 +61,8 @@ GAME
   tri_count, triangulate_twisted(obj, high), push_outside(obj, high, offset),
   hard_edges_without_seams(obj)
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import sys

@@ -1,9 +1,14 @@
 ---
 name: blender-lighting-rendering
-description: Use when lighting, rendering or compositing in Blender: light a character, product or hero shot, interior at dusk or night, three-point or motivated lighting, sun and sky, HDRI, EEVEE vs Cycles settings, light leaks or noise, flat or muddy renders, subject not standing out, AgX/ACES color management, render passes, EXR, light groups, bloom and vignette in the 5.x compositor, rule of thirds and value checks, toon/NPR looks, or judging a render like a lighter.
+description: "Use when lighting, rendering or compositing in Blender: light a character, product or hero shot, interior at dusk or night, three-point or motivated lighting, sun and sky, HDRI, EEVEE vs Cycles settings, light leaks or noise, flat or muddy renders, subject not standing out, AgX/ACES color management, render passes, EXR, light groups, bloom and vignette in the 5.x compositor, rule of thirds and value checks, toon/NPR looks, or judging a render like a lighter."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Lighting, rendering and compositing
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert lighting controls where the eye goes. Shape comes from gradients, the subject is separated from its surroundings by value (checked desaturated), every light has a source and a purpose, and every decision is measured on the render, not on lamp values. Work from a controlled base, change one thing at a time, and compare.
 

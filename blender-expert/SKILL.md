@@ -1,9 +1,14 @@
 ---
 name: blender-expert
-description: Use when doing any 3D work in Blender through Python or an MCP bridge, headless or in a live session: modeling, sculpting a character or head, retopology, UV unwrapping, baking, texturing, rigging, animating, previs, geometry nodes, lighting and rendering, grease pencil, or finishing an AI-generated mesh into a production asset. Also when a bpy script fails on Blender 5.x API changes, a brush or sculpt operator fails or crashes headless, or a result has to be judged like a professional 3D artist would.
+description: "Use when doing any 3D work in Blender through Python or an MCP bridge, headless or in a live session: modeling, sculpting a character or head, retopology, UV unwrapping, baking, texturing, rigging, animating, previs, geometry nodes, lighting and rendering, grease pencil, or finishing an AI-generated mesh into a production asset. Also when a bpy script fails on Blender 5.x API changes, a brush or sculpt operator fails or crashes headless, or a result has to be judged like a professional 3D artist would."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender expert (router and agent protocol)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert-level Blender work is a loop, not a script: build big to small, and at every stage turn the model, measure it and fix it before adding detail. This skill is the protocol every Blender task follows and the map to the domain skills distilled from Blender Studio artists, Blender Conference talks and top instructors (sources in each skill).
 

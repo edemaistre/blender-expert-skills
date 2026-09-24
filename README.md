@@ -1,6 +1,9 @@
-# Blender Expert Skills (13 skills, 2026-09-24)
+# Blender Expert Skills v0.1 (13 skills, 2026-09-24)
 
 Agent skills that make Claude (Claude Code) or Codex work in Blender 5.2 like the experts in about 200 Blender videos (Blender Studio, Blender Conference, top instructors). Start with `blender-expert/SKILL.md` (the router).
+
+## Version
+v0.1, released 2026-09-24. Each `SKILL.md` carries `metadata.version: "0.1"` and a visible version line; each `scripts/bx_*.py` exposes `__version__ = "0.1"`. History in `CHANGELOG.md`; git tag `v0.1`.
 
 ## Install
 

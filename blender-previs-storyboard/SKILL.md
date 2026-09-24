@@ -1,9 +1,14 @@
 ---
 name: blender-previs-storyboard
-description: Use when turning a script or story into previs, layout, storyboards or an animatic in Blender: beats to shot list, camera and lens per shot, staging, camera height, 180-degree rule, screen direction, shot sizes, when to cut, camera moves, timing stills in the Video Sequencer, markers bound to cameras, Story Tools, Grease Pencil or 2D/3D hybrid boards. Also when an animatic shows the wrong frame, blocking keys are not stepped, Rigify operators are missing, or viewport render fails headless.
+description: "Use when turning a script or story into previs, layout, storyboards or an animatic in Blender: beats to shot list, camera and lens per shot, staging, camera height, 180-degree rule, screen direction, shot sizes, when to cut, camera moves, timing stills in the Video Sequencer, markers bound to cameras, Story Tools, Grease Pencil or 2D/3D hybrid boards. Also when an animatic shows the wrong frame, blocking keys are not stepped, Rigify operators are missing, or viewport render fails headless."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Previs, layout and storyboarding
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert previs conveys an idea well enough to be judged, as cheaply as possible: one fact per beat, every shot designed for what the audience must feel, timing found in the edit from stills. The camera is the audience's body; where it stands, how high and through which lens decides the emotion, so every non-neutral choice needs a stated reason.
 

@@ -43,6 +43,8 @@ as encoded (sRGB images: sRGB-encoded; Non-Color: raw); float images store linea
 Always write alpha = 1 into images without meaningful alpha: an RGB PNG save multiplies
 colour by alpha.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import re

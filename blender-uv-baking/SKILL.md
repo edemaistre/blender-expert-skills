@@ -1,9 +1,14 @@
 ---
 name: blender-uv-baking
-description: Use when UV unwrapping, placing seams, straightening or packing UVs, setting texel density, laying out UDIMs or mirrored UVs, or baking normal, AO, curvature, ID or displacement maps from a sculpt or high poly onto a low poly or retopo in Blender, including Multires bakes. Also when a bake has black or inverted patches, flat areas, cracks, seams, wavy lines or AO ghosts, bpy.ops.object.bake returns CANCELLED, or uv.unwrap silently fails.
+description: "Use when UV unwrapping, placing seams, straightening or packing UVs, setting texel density, laying out UDIMs or mirrored UVs, or baking normal, AO, curvature, ID or displacement maps from a sculpt or high poly onto a low poly or retopo in Blender, including Multires bakes. Also when a bake has black or inverted patches, flat areas, cracks, seams, wavy lines or AO ghosts, bpy.ops.object.bake returns CANCELLED, or uv.unwrap silently fails."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # UV unwrapping and baking
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert-level UVs put seams where the texturing method can afford them, set texel density before texture size, and pack with pixel-true padding. Expert bakes measure their projection distances instead of guessing, and are judged in pixels and under a raking light, never eyeballed once. Every stage below has a measurable gate that `scripts/bx_uvbake.py` computes.
 

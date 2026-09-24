@@ -1,9 +1,14 @@
 ---
 name: blender-texturing-shading
-description: Use when texturing, shading or look-developing in Blender: building a PBR material from a texture set, displacement, procedural materials, edge wear, dirt, grime, color variation, decals, box or triplanar mapping on meshes without UVs, stylized character skin (subsurface, pores), eyes and cornea, hand-painted stylized textures, texture painting or painting masks headless. Also when a material looks plastic, CG, waxy or blown out, color spaces are wrong, or EEVEE and Cycles disagree.
+description: "Use when texturing, shading or look-developing in Blender: building a PBR material from a texture set, displacement, procedural materials, edge wear, dirt, grime, color variation, decals, box or triplanar mapping on meshes without UVs, stylized character skin (subsurface, pores), eyes and cornea, hand-painted stylized textures, texture painting or painting masks headless. Also when a material looks plastic, CG, waxy or blown out, color spaces are wrong, or EEVEE and Cycles disagree."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Texturing and shading (Blender 5.2)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert shading is layered masks feeding physically plausible values: a clean base (scanned set or flat colours), then contrasty black/white masks that place colour, roughness, height and subsurface, all editable in nodes. Values are judged under honest light in both engines, and baking comes last, for portability.
 

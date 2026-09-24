@@ -34,6 +34,8 @@ quads, 250 e3 + 258 e5; Rain body 16,526 faces, 99.98% quads, 241 e3 + 247 e5, 2
   symmetry_pct       share of vertices with an X-mirror partner (characters: ~100)
   fidelity_*         distance from low-poly verts to the high-poly surface, in scene units
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import json
 import math
 import sys

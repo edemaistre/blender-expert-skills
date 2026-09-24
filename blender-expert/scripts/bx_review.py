@@ -23,6 +23,8 @@ Modes:  silhouette (black on white: reads shape and gesture only)
 Views:  front, back, left, right, top, threequarter (perspective, 50 mm), and
         low (three-quarter from below, catches jaw/chin and under-plane problems)
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import sys

@@ -38,6 +38,8 @@ Angles. azimuth 0 = light on the camera side (frontal), +90 = screen right of th
 World azimuth (suns) is compass style: 0 = +Y, 90 = +X, same as the Sky texture's sun_rotation.
 Images from the analysis functions are arrays with row 0 at the TOP.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import json
 import math
 import os

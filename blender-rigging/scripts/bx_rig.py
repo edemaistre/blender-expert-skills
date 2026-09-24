@@ -41,6 +41,8 @@ Test character: mannequin.
 
 Verified on Blender 5.2.1 LTS by /Users/emmanuel/Developer/pro/2026-09-24 Blender Expert Skills/tests/code/blender-rigging/*.py.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import subprocess

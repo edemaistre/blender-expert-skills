@@ -67,6 +67,8 @@ Added 2026-09-24, v2 (tested in /Users/emmanuel/Developer/pro/2026-09-24 Blender
   framing(objs, dir, lens), final_render(objs, path, ...)   client stills, px per unit
   write_shape_key(obj, name, co)        expression on a key, basis untouched
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 
 import bmesh

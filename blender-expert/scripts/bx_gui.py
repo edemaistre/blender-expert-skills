@@ -34,6 +34,8 @@ Rules learned the hard way:
     restores the mode: view_selected from Sculpt Mode does not frame, and region
     matrices only refresh on redraw.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import bpy
 from bpy_extras import view3d_utils
 from mathutils import Vector

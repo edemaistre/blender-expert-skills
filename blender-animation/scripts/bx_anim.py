@@ -37,6 +37,8 @@ Verified on Blender 5.2.1 LTS headless: /Users/emmanuel/Developer/pro/2026-09-24
 test_rigify_jump.py (generated Rigify human), test_procedures.py, test_staging.py and
 test_ball_shot.py (a full ball shot with the review pack).
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 

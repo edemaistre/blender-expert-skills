@@ -1,9 +1,14 @@
 ---
 name: blender-animation
-description: Use when animating characters or objects in Blender through Python, a bouncing ball, walk or run cycle, jump, acting shot, lip sync, eye darts or facial animation, blocking in stepped keys, splining, polish, timing and spacing, arcs, overlap, squash and stretch, graph editor handles, slotted actions or NLA layers, staging a playblast, or when animation looks floaty, stiff, slides, pops, chatters, the subject is too small in frame, or a knee pops and needs an expert review.
+description: "Use when animating characters or objects in Blender through Python, a bouncing ball, walk or run cycle, jump, acting shot, lip sync, eye darts or facial animation, blocking in stepped keys, splining, polish, timing and spacing, arcs, overlap, squash and stretch, graph editor handles, slotted actions or NLA layers, staging a playblast, or when animation looks floaty, stiff, slides, pops, chatters, the subject is too small in frame, or a knee pops and needs an expert review."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender animation (character and object)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert animation means every frame on screen is a choice: key poses the audience reads, holds and snaps placed by hand, spacing designed, arcs checked. The Blender Studio stance is to block stepped, spline late and in parts, and judge from the shot camera at real speed. An agent cannot scrub, so it measures instead: per-frame positions, spacing charts, arc checks, framing, an onion-skin image, a curve plot, and a playblast it actually looks at.
 

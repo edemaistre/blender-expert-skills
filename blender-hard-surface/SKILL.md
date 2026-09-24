@@ -1,9 +1,14 @@
 ---
 name: blender-hard-surface
-description: Use when modeling hard-surface objects in Blender (sci-fi panels, props, weapons, vehicles, robots, machined or product parts) with booleans and cutters, bevel modifiers, weighted normals, or subdivision with support loops or creases. Also when shading is broken (smears on flat faces, stretching near a cut, pinching), a bevel shrinks or vanishes after a boolean, a boolean empties the mesh or leaves holes, choosing n-gons vs quads, or making a game-ready mid-poly.
+description: "Use when modeling hard-surface objects in Blender (sci-fi panels, props, weapons, vehicles, robots, machined or product parts) with booleans and cutters, bevel modifiers, weighted normals, or subdivision with support loops or creases. Also when shading is broken (smears on flat faces, stretching near a cut, pinching), a bevel shrinks or vanishes after a boolean, a boolean empties the mesh or leaves holes, choosing n-gons vs quads, or making a game-ready mid-poly."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender hard surface
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert hard surface is controlled light on edges: every edge catches a highlight from a bevel or a support loop, flat faces read perfectly flat, and cuts stay editable until the design is settled. The experts disagree on method (n-gons and booleans vs quad cages and subdivision), not on the checks: order of operations, cutter hygiene, planar faces, a shiny matcap orbit. The agent builds the stack with the toolkit and lets the measurable gates find what a human finds by orbiting.
 

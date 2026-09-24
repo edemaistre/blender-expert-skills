@@ -1,9 +1,14 @@
 ---
 name: blender-hair
-description: Use when grooming hair or fur in Blender with hair curves, such as a character hairstyle, animal fur, procedural fur in geometry nodes, or hair cards and mesh hair for games. Also covers the Essentials hair node assets (Interpolate, Clump, Curl, Frizz, Noise, Trim), density masks, bald spots, parting lines, strand shading in Cycles or EEVEE, and slow grooms. Use it too when a hair script misbehaves headless, for example stale modifier inputs or curve sculpt brushes that do nothing.
+description: "Use when grooming hair or fur in Blender with hair curves, such as a character hairstyle, animal fur, procedural fur in geometry nodes, or hair cards and mesh hair for games. Also covers the Essentials hair node assets (Interpolate, Clump, Curl, Frizz, Noise, Trim), density masks, bald spots, parting lines, strand shading in Cycles or EEVEE, and slow grooms. Use it too when a hair script misbehaves headless, for example stale modifier inputs or curve sculpt brushes that do nothing."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Hair and fur grooming (hair curves, Blender 5.2)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert grooming means a few evenly spaced guides that set direction and silhouette. Stacked, masked procedural layers add density, clumping, frizz, length variation and strays, judged in a lit render at full density and in pose. Write guides as data (no curve brush stroke can be scripted in 5.2.1) and make every look decision through the Essentials hair node-group assets.
 

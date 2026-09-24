@@ -29,6 +29,8 @@ Zones: zi, zo = b.zone("SIMULATION" | "REPEAT" | "FOREACH" | "CLOSURE", ...) pai
 Recipes (tested, rendered): scatter_tree, curve_array_tree, growth_tree, particle_drop_tree.
 Test suite: /Users/emmanuel/Developer/pro/2026-09-24 Blender Expert Skills/tests/code/blender-geometry-nodes/ (run each with blender -b --factory-startup --python).
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import math
 import os
 import statistics

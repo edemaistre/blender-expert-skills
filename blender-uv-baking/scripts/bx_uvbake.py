@@ -33,6 +33,8 @@ returns CANCELLED silently otherwise; selected-to-active evaluates the low with 
 settings (Multires render_levels), measures max_ray_distance from the extruded start,
 never lets the active low occlude its own AO, but every other render-visible object does.
 """
+
+__version__ = "0.1"  # Blender Expert Skills v0.1 (2026-09-24)
 import colorsys
 import heapq
 import math

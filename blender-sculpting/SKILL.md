@@ -1,9 +1,14 @@
 ---
 name: blender-sculpting
-description: Use when sculpting in Blender through Python: sculpt a head, face or bust, a stylized or cartoon character, a creature or a realistic portrait; block out from primitives; cut planes, a jaw or gonial angle, cheekbones; fix a jaw or face that looks like a ball or balloon; stylized hair clumps; eyelids; an expression or smirk; plan remesh or multires resolution; reproduce Clay Strips, Crease, Draw Sharp, Scrape, Grab or mask moves without a tablet; final clay renders; or when a sculpt operator crashes headless.
+description: "Use when sculpting in Blender through Python: sculpt a head, face or bust, a stylized or cartoon character, a creature or a realistic portrait; block out from primitives; cut planes, a jaw or gonial angle, cheekbones; fix a jaw or face that looks like a ball or balloon; stylized hair clumps; eyelids; an expression or smirk; plan remesh or multires resolution; reproduce Clay Strips, Crease, Draw Sharp, Scrape, Grab or mask moves without a tablet; final clay renders; or when a sculpt operator crashes headless."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Sculpting (heads and characters, Blender 5.2)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert sculpting is structure first and surface last: masses blocked with stated planes and corners, proportions locked at low resolution, every stage judged by eye through a long lens, and appeal as the final test, not the mesh numbers. The agent builds blockout and primary forms headless (`scripts/bx_sculpt.py`: smooth-blend `Clay`, plane cuts, numpy brushes) and does client-quality surface work with Blender's real brushes in a live GUI session (`bx_gui`).
 

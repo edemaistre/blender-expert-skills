@@ -1,9 +1,14 @@
 ---
 name: blender-retopology
-description: Use when turning a dense sculpt, scan or AI-generated mesh into clean topology in Blender, for animation, subdivision or a game low poly with a triangle budget. Also when choosing between QuadriFlow or voxel remesh and manual retopo, placing loops around eyes, mouth and joints, deciding pole placement, setting up a Shrinkwrap cage, fixing volume loss after subdivision, preparing a low poly for baking, or auditing topology for spirals, 6-poles and triangles. Keywords: retopo, retopology, quad remesh, clean up an AI mesh, edge flow, low poly, bake prep.
+description: "Use when turning a dense sculpt, scan or AI-generated mesh into clean topology in Blender, for animation, subdivision or a game low poly with a triangle budget. Also when choosing between QuadriFlow or voxel remesh and manual retopo, placing loops around eyes, mouth and joints, deciding pole placement, setting up a Shrinkwrap cage, fixing volume loss after subdivision, preparing a low poly for baking, or auditing topology for spirals, 6-poles and triangles. Keywords: retopo, retopology, quad remesh, clean up an AI mesh, edge flow, low poly, bake prep."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Blender retopology
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert retopology is a plan executed with the fewest loops that capture the forms and let the mesh deform: loops close around eyes, mouth and joints, poles sit where nothing moves, and the subdivided surface, not the cage, matches the sculpt. An agent without a mouse can build every piece of this from data, but it reaches expert quality only on the parts it plans explicitly. Automatic remeshing is a finish for static assets and a start for everything else.
 

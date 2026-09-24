@@ -1,9 +1,14 @@
 ---
 name: blender-grease-pencil
-description: Use when drawing or animating with Grease Pencil in Blender 5.x from Python: 2D or 2.5D illustration, frame-by-frame animation, a cutout or part-based 2D character, strokes with pressure, filled shapes with holes, in-betweens and interpolation, onion skin, Line Art outlines, strokes on 3D meshes, NPR or hybrid motion graphics. Also when GP code fails (GPENCIL, frame.strokes, grease_pencil_modifiers), fills do not show, colors render dark, or draw brushes will not run from a script.
+description: "Use when drawing or animating with Grease Pencil in Blender 5.x from Python: 2D or 2.5D illustration, frame-by-frame animation, a cutout or part-based 2D character, strokes with pressure, filled shapes with holes, in-betweens and interpolation, onion skin, Line Art outlines, strokes on 3D meshes, NPR or hybrid motion graphics. Also when GP code fails (GPENCIL, frame.strokes, grease_pencil_modifiers), fills do not show, colors render dark, or draw brushes will not run from a script."
+metadata:
+  version: "0.1"
+  date: "2026-09-24"
 ---
 
 # Grease Pencil (v3, Blender 5.2)
+
+**Version 0.1** (2026-09-24), part of Blender Expert Skills v0.1.
 
 Expert Grease Pencil work keeps every drawing editable and redrawable, puts meaning in the structure (which object, which layer, which key) and judges the result in motion. The agent draws through the data API (drawings are curves with attributes), builds characters the way 2D studios rig them, and reviews rendered frames instead of a viewport it cannot flip.
 
